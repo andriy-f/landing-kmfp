@@ -1,0 +1,50 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+# GitHub recommends pinning actions to a commit SHA.
+# To get a newer version, you will need to update the SHA.
+# You can also reference a tag or branch, but the action may change without warning.
+
+name: Publish
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  push_to_env:
+    name: Push static build to server
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Test
+        run: npm test
+
+    #   - name: Push to server
+    #     run: |
+    #      env \
+    #        PROD_SERVER_ADDRESS="${{ secrets.PROD_SERVER_ADDRESS }}" \
+    #        SSH_KEY="${{ secrets.SSH_KEY }}" \
+    #        ssh-agent bash -c 'ssh-add - <<< "$SSH_KEY"; ssh-add -l; rsync -rtv ./public PROD_SERVER_ADDRESS:/'
