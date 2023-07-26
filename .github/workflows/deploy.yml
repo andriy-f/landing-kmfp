@@ -43,7 +43,7 @@ jobs:
         run: npm run build
 
       - name: install ncftp
-        run: sudo apt-get update && sudo apt-get install ncftp
+        run: sudo apt-get install ncftp
 
       - name: Deploy static build via FTP
         env:
