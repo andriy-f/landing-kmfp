@@ -36,13 +36,13 @@ jobs:
 
       - run: npm ci
 
-      - name: Build
-        run: npm run build
-
-      - name: Test
+      - name: Run unit tests
         run: npm test
 
-      - name: deploy via FTP
+      - name: Create static build
+        run: npm run build
+
+      - name: deploy via FTP (TODO)
         env:
           HOSTING_ADDRESS: ${{ secrets.HOSTING_ADDRESS }}
           FTP_USER: ${{secrets.FTP_USER}}
