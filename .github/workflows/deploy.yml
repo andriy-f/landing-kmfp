@@ -42,14 +42,25 @@ jobs:
       - name: Create static build
         run: npm run build
 
+      - name: install ncftp
+        run: apt-get update && apt-get install ncftp
+
       - name: Deploy static build via FTP
         env:
           HOSTING_ADDRESS: ${{ secrets.HOSTING_ADDRESS }}
           FTP_USER: ${{secrets.FTP_USER}}
           FTP_PASSWORD: ${{secrets.FTP_PASSWORD}}
         run: |
-          ftp -inv $HOSTING_ADDRESS <<EOF
-          user $FTP_USER $FTP_PASSWORD
-          mput public/*
-          bye
-          EOF
+          echo "host $HOSTING_ADDRESS" > auth.cfg
+          echo "user FTP_USER" >> auth.cfg
+          echo "pass FTP_PASSWORD" >> auth.cfg
+          ncftpput -f auth.cfg -R ~ ./public
+          rm auth.cfg
+
+      # - name: ftp bare
+        # run: |
+          # ftp -inv $HOSTING_ADDRESS <<EOF
+          # user $FTP_USER $FTP_PASSWORD
+          # put public.tar.gz
+          # bye
+          # EOF
