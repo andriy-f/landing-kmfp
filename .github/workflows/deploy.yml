@@ -54,7 +54,7 @@ jobs:
           echo "host $HOSTING_ADDRESS" > auth.cfg
           echo "user $FTP_USER" >> auth.cfg
           echo "pass $FTP_PASSWORD" >> auth.cfg
-          ncftpput -f auth.cfg -R ~ ./public
+          ncftpput -f auth.cfg -R / ./public
           rm auth.cfg
 
       # - name: Upload static build via FTP
