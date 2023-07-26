@@ -42,8 +42,8 @@ jobs:
       - name: Create static build
         run: npm run build
 
-      - name: install ncftp
-        run: apt-get update && apt-get install ncftp
+      # - name: install ncftp
+      #   run: sudo apt-get update && sudo apt-get install ncftp
 
       - name: Deploy static build via FTP
         env:
@@ -57,10 +57,10 @@ jobs:
           ncftpput -f auth.cfg -R ~ ./public
           rm auth.cfg
 
-      # - name: ftp bare
-        # run: |
-          # ftp -inv $HOSTING_ADDRESS <<EOF
-          # user $FTP_USER $FTP_PASSWORD
-          # put public.tar.gz
-          # bye
-          # EOF
+      # - name: Upload static build via FTP
+      #   uses: SamKirkland/FTP-Deploy-Action@8a24039354ee91000cb948cb4a1dbdf1a1b94a3c
+      #   with:
+      #     server: ${{ secrets.HOSTING_ADDRESS }}
+      #     username: ${{secrets.FTP_USER}}
+      #     password: ${{secrets.FTP_PASSWORD}}
+      #     local-dir: public/
