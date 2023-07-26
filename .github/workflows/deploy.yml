@@ -42,7 +42,7 @@ jobs:
       - name: Create static build
         run: npm run build
 
-      - name: deploy via FTP (TODO)
+      - name: Deploy static build via FTP
         env:
           HOSTING_ADDRESS: ${{ secrets.HOSTING_ADDRESS }}
           FTP_USER: ${{secrets.FTP_USER}}
@@ -50,6 +50,6 @@ jobs:
         run: |
           ftp -inv $HOSTING_ADDRESS <<EOF
           user $FTP_USER $FTP_PASSWORD
-          ls
+          mput public/*
           bye
           EOF
