@@ -7,18 +7,18 @@
 # To get a newer version, you will need to update the SHA.
 # You can also reference a tag or branch, but the action may change without warning.
 
-name: Publish
+name: Deploy
 
 on:
   release:
     types: [published]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
-  push_to_env:
-    name: Push static build to server
+  deployment:
+    name: Push static build to hosting server
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
 
     strategy:
       matrix:
@@ -42,9 +42,14 @@ jobs:
       - name: Test
         run: npm test
 
-    #   - name: Push to server
-    #     run: |
-    #      env \
-    #        PROD_SERVER_ADDRESS="${{ secrets.PROD_SERVER_ADDRESS }}" \
-    #        SSH_KEY="${{ secrets.SSH_KEY }}" \
-    #        ssh-agent bash -c 'ssh-add - <<< "$SSH_KEY"; ssh-add -l; rsync -rtv ./public PROD_SERVER_ADDRESS:/'
+      - name: deploy via FTP
+        env:
+          HOSTING_ADDRESS: ${{ secrets.HOSTING_ADDRESS }}
+          FTP_USER: ${{secrets.FTP_USER}}
+          FTP_PASSWORD: ${{secrets.FTP_PASSWORD}}
+        run: |
+          ftp -inv $HOSTING_ADDRESS <<EOF
+          user $FTP_USER $FTP_PASSWORD
+          ls
+          bye
+          EOF
