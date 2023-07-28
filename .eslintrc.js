@@ -10,5 +10,6 @@ module.exports = {
   rules: {
     'semi': ['warn', 'never'],
     'quotes': ['warn', 'single'],
-  }
+  },
+  root: true,
 }
