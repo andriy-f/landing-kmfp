@@ -1,6 +1,7 @@
 import * as React from 'react'
 import type { HeadFC, PageProps } from 'gatsby'
 import Header from '../home/header'
+import Frame from '../home/Frame'
 
 const pageStyles = {
   color: '#232129',
@@ -8,10 +9,11 @@ const pageStyles = {
   fontFamily: '-apple-system, Roboto, sans-serif, serif',
 }
 
+
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <div>
-      <Header />
+      <Frame />
       <main style={pageStyles}>
       </main>
     </div>

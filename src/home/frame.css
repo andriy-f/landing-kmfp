@@ -1,0 +1,1113 @@
+.frame {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #f9f9f9;
+  border: 1px none;
+  height: 6999px;
+  position: relative;
+  width: 1920px;
+}
+
+.frame .overlap {
+  height: 5673px;
+  left: 0;
+  position: absolute;
+  top: 1326px;
+  width: 1920px;
+}
+
+.frame .borders {
+  height: 5673px;
+  left: 240px;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.frame .rectangle {
+  border-color: var(--p1-black);
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-right-style: solid;
+  border-right-width: 2px;
+  height: 5922px;
+}
+
+.frame .VECTORS {
+  height: 2470px;
+  left: 0;
+  position: absolute;
+  top: 1383px;
+  width: 1860px;
+}
+
+.frame .footer {
+  background-color: transparent;
+  border-bottom-style: none;
+  border-color: var(--p1-black);
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: solid;
+  border-top-width: 2px;
+  height: 456px;
+  left: 0;
+  position: absolute;
+  top: 5198px;
+  width: 1920px;
+}
+
+.frame .div-2 {
+  height: 168px;
+  left: 772px;
+  position: absolute;
+  top: 91px;
+  width: 231px;
+}
+
+.frame .text-wrapper {
+  color: var(--p1-black);
+  font-family: "Krona One", Helvetica;
+  font-size: 20.4px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 21.4px;
+  position: absolute;
+  top: -1px;
+  width: 188px;
+}
+
+.frame .text-wrapper-2 {
+  color: var(--p1-black);
+  font-family: "Krona One", Helvetica;
+  font-size: 20.4px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 21.4px;
+  position: absolute;
+  top: 50px;
+  width: 188px;
+}
+
+.frame .text-wrapper-3 {
+  color: var(--p1-black);
+  font-family: "Krona One", Helvetica;
+  font-size: 20.4px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 21.4px;
+  position: absolute;
+  top: 101px;
+  width: 188px;
+}
+
+.frame .text-wrapper-4 {
+  color: var(--p1-black);
+  font-family: "Krona One", Helvetica;
+  font-size: 20.4px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 21.4px;
+  position: absolute;
+  top: 152px;
+  width: 231px;
+}
+
+.frame .vector {
+  height: 2px;
+  left: 239px;
+  position: absolute;
+  top: 349px;
+  width: 1442px;
+}
+
+.frame .p {
+  color: var(--p1-black);
+  font-family: "Krona One", Helvetica;
+  font-size: 11.4px;
+  font-weight: 400;
+  left: 825px;
+  letter-spacing: 0;
+  line-height: 9.4px;
+  position: absolute;
+  top: 398px;
+  white-space: nowrap;
+}
+
+.frame .group {
+  height: 50px;
+  left: 1415px;
+  position: absolute;
+  top: 91px;
+  width: 152px;
+}
+
+.frame .logo {
+  height: 164px;
+  left: 350px;
+  position: absolute;
+  top: 113px;
+  width: 164px;
+}
+
+.frame .ilustration {
+  background-color: var(--p2-secondary-100);
+  height: 965px;
+  left: 0;
+  position: absolute;
+  top: 4233px;
+  width: 1920px;
+}
+
+.frame .overlap-group {
+  background-color: #ebbdfe;
+  height: 965px;
+}
+
+.frame .div-3 {
+  height: 834px;
+  left: 254px;
+  position: relative;
+  top: 41px;
+  width: 1411px;
+}
+
+.frame .PEACE-IS-a-FLOWER-WE {
+  color: var(--p1-black);
+  font-family: var(--h1-desktop-font-family);
+  font-size: var(--h1-desktop-font-size);
+  font-style: var(--h1-desktop-font-style);
+  font-weight: var(--h1-desktop-font-weight);
+  left: 679px;
+  letter-spacing: var(--h1-desktop-letter-spacing);
+  line-height: var(--h1-desktop-line-height);
+  position: absolute;
+  top: 218px;
+  width: 747px;
+}
+
+.frame .img {
+  height: 834px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 653px;
+}
+
+.frame .paragraph-section {
+  height: 165px;
+  left: 511px;
+  position: absolute;
+  top: 3968px;
+  width: 947px;
+}
+
+.frame .come-experience {
+  color: var(--p1-black);
+  font-family: var(--h2-desktop-font-family);
+  font-size: var(--h2-desktop-font-size);
+  font-style: var(--h2-desktop-font-style);
+  font-weight: var(--h2-desktop-font-weight);
+  left: 0;
+  letter-spacing: var(--h2-desktop-letter-spacing);
+  line-height: var(--h2-desktop-line-height);
+  position: absolute;
+  top: -1px;
+  width: 480px;
+}
+
+.frame .overlap-group-wrapper {
+  height: 77px;
+  left: 574px;
+  position: absolute;
+  top: 43px;
+  width: 375px;
+}
+
+.frame .div-wrapper {
+  background-color: #00dc60;
+  border-radius: 58px;
+  height: 77px;
+  position: relative;
+  width: 373px;
+}
+
+.frame .text-wrapper-5 {
+  color: var(--p1-black);
+  font-family: "Krona One", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  left: 110px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 23px;
+  white-space: nowrap;
+  width: 154px;
+}
+
+.frame .testimonials-section {
+  height: 809px;
+  left: 242px;
+  position: absolute;
+  top: 3077px;
+  width: 1437px;
+}
+
+.frame .WHAT-PEOPLE {
+  color: var(--p1-black);
+  font-family: var(--h2-desktop-font-family);
+  font-size: var(--h2-desktop-font-size);
+  font-style: var(--h2-desktop-font-style);
+  font-weight: var(--h2-desktop-font-weight);
+  left: 120px;
+  letter-spacing: var(--h2-desktop-letter-spacing);
+  line-height: var(--h2-desktop-line-height);
+  position: absolute;
+  top: -1px;
+  width: 670px;
+}
+
+.frame .div-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 64px;
+  left: 110px;
+  position: absolute;
+  top: 156px;
+}
+
+.frame .div-5 {
+  height: 580px;
+  position: relative;
+  width: 363.45px;
+}
+
+.frame .very-short-video-wrapper {
+  background-image: url(/images/rectangle-12-1.png);
+  background-size: 100% 100%;
+  height: 467px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 363px;
+}
+
+.frame .very-short-video {
+  color: #f9f9f9;
+  font-family: "Krona One", Helvetica;
+  font-size: 14.2px;
+  font-weight: 400;
+  left: 91px;
+  letter-spacing: 0;
+  line-height: 16.9px;
+  position: absolute;
+  top: 341px;
+}
+
+.frame .text-wrapper-6 {
+  color: var(--p1-black);
+  font-family: "Poppins", Helvetica;
+  font-size: 27px;
+  font-weight: 500;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: 29px;
+  position: absolute;
+  top: 492px;
+  width: 285px;
+}
+
+.frame .div-6 {
+  height: 555px;
+  position: relative;
+  width: 363.45px;
+}
+
+.frame .rectangle-2 {
+  height: 467px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 363px;
+}
+
+.frame .text-wrapper-7 {
+  color: var(--p1-black);
+  font-family: "Poppins", Helvetica;
+  font-size: 27px;
+  font-weight: 500;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: 29px;
+  position: absolute;
+  top: 519px;
+  width: 285px;
+}
+
+.frame .div-7 {
+  height: 607px;
+  position: relative;
+  width: 363.45px;
+}
+
+.frame .text-wrapper-8 {
+  color: var(--p1-black);
+  font-family: "Poppins", Helvetica;
+  font-size: 27px;
+  font-weight: 500;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: 29px;
+  position: absolute;
+  top: 519px;
+  width: 285px;
+}
+
+.frame .vector-2 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 808px;
+  width: 1437px;
+}
+
+.frame .FAQ {
+  height: 287px;
+  left: 316px;
+  position: absolute;
+  top: 2602px;
+  width: 1171px;
+}
+
+.frame .lorem-is-simply {
+  color: var(--p1-black);
+  font-family: var(--body-desktop-font-family);
+  font-size: var(--body-desktop-font-size);
+  font-style: var(--body-desktop-font-style);
+  font-weight: var(--body-desktop-font-weight);
+  left: 748px;
+  letter-spacing: var(--body-desktop-letter-spacing);
+  line-height: var(--body-desktop-line-height);
+  position: absolute;
+  top: -1px;
+  width: 423px;
+}
+
+.frame .group-2 {
+  height: 284px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 582px;
+}
+
+.frame .overlap-2 {
+  background-color: #f4f4f4;
+  border-bottom-style: solid;
+  border-bottom-width: 1.6px;
+  border-color: #1e1e1e;
+  border-top-style: solid;
+  border-top-width: 1.6px;
+  height: 91px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 576px;
+}
+
+.frame .vector-3 {
+  height: 23px;
+  left: 497px;
+  position: absolute;
+  top: 33px;
+  width: 12px;
+}
+
+.frame .text-wrapper-9 {
+  color: var(--p1-black);
+  font-family: "Poppins", Helvetica;
+  font-size: 21.6px;
+  font-weight: 500;
+  left: 67px;
+  letter-spacing: 0;
+  line-height: 23.2px;
+  position: absolute;
+  top: 32px;
+  width: 212px;
+}
+
+.frame .overlap-group-2 {
+  border-bottom-style: solid;
+  border-bottom-width: 1.6px;
+  border-color: #1e1e1e;
+  height: 91px;
+  left: 0;
+  position: absolute;
+  top: 97px;
+  width: 576px;
+}
+
+.frame .text-wrapper-10 {
+  color: var(--p1-black);
+  font-family: "Poppins", Helvetica;
+  font-size: 21.6px;
+  font-weight: 500;
+  left: 67px;
+  letter-spacing: 0;
+  line-height: 23.2px;
+  position: absolute;
+  top: 32px;
+  width: 344px;
+}
+
+.frame .overlap-3 {
+  border-bottom-style: solid;
+  border-bottom-width: 1.6px;
+  border-color: #1e1e1e;
+  height: 91px;
+  left: 0;
+  position: absolute;
+  top: 193px;
+  width: 576px;
+}
+
+.frame .text-wrapper-11 {
+  color: var(--p1-black);
+  font-family: "Poppins", Helvetica;
+  font-size: 21.6px;
+  font-weight: 500;
+  left: 67px;
+  letter-spacing: 0;
+  line-height: 23.2px;
+  position: absolute;
+  top: 20px;
+  width: 311px;
+}
+
+.frame .event-details {
+  height: 873px;
+  left: 0;
+  position: absolute;
+  top: 1646px;
+  width: 1920px;
+}
+
+.frame .overlap-4 {
+  height: 874px;
+  position: relative;
+  top: -1px;
+}
+
+.frame .rectangle-3 {
+  background-color: var(--p2-primary-100);
+  height: 637px;
+  left: 0;
+  position: absolute;
+  top: 237px;
+  width: 1920px;
+}
+
+.frame .rectangle-4 {
+  height: 408px;
+  left: 323px;
+  object-fit: cover;
+  position: absolute;
+  top: 364px;
+  width: 625px;
+}
+
+.frame .div-8 {
+  height: 406px;
+  left: 1017px;
+  position: absolute;
+  top: 380px;
+  width: 580px;
+}
+
+.frame .overlap-group-wrapper-2 {
+  height: 176px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 580px;
+}
+
+.frame .overlap-group-3 {
+  height: 122px;
+  left: 90px;
+  position: relative;
+  width: 463px;
+}
+
+.frame .group-3 {
+  height: 68px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 204px;
+}
+
+.frame .text-wrapper-12 {
+  color: var(--p1-black);
+  font-family: "Poppins", Helvetica;
+  font-size: 27px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 29px;
+  position: absolute;
+  top: 39px;
+  width: 149px;
+}
+
+.frame .text-wrapper-13 {
+  color: var(--p1-black);
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 29px;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.frame .group-4 {
+  height: 122px;
+  left: 199px;
+  position: absolute;
+  top: 0;
+  width: 264px;
+}
+
+.frame .cecil-sharp-house {
+  color: var(--p1-black);
+  font-family: "Poppins", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 29px;
+  position: absolute;
+  top: 35px;
+  width: 260px;
+}
+
+.frame .span {
+  font-weight: 600;
+}
+
+.frame .text-wrapper-14 {
+  color: #1e1e1e;
+  font-family: "Poppins", Helvetica;
+  font-size: 27px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 29px;
+}
+
+.frame .text-wrapper-15 {
+  color: var(--p1-black);
+  font-family: "Poppins", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 29px;
+  position: absolute;
+  top: 0;
+  width: 110px;
+}
+
+.frame .overlap-5 {
+  height: 230px;
+  left: 0;
+  position: absolute;
+  top: 176px;
+  width: 580px;
+}
+
+.frame .overlap-6 {
+  height: 97px;
+  left: 90px;
+  position: relative;
+  width: 403px;
+}
+
+.frame .text-wrapper-16 {
+  color: var(--p1-black);
+  font-family: "Poppins", Helvetica;
+  font-size: 27px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 29px;
+  position: absolute;
+  top: 39px;
+  width: 132px;
+}
+
+.frame .group-5 {
+  height: 97px;
+  left: 199px;
+  position: absolute;
+  top: 0;
+  width: 204px;
+}
+
+.frame .text-wrapper-17 {
+  color: var(--p1-black);
+  font-family: "Poppins", Helvetica;
+  font-size: 27px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 29px;
+  position: absolute;
+  top: 39px;
+  width: 200px;
+}
+
+.frame .overlap-wrapper {
+  height: 77px;
+  left: 103px;
+  position: absolute;
+  top: 153px;
+  width: 375px;
+}
+
+.frame .overlap-7 {
+  border: 2px solid;
+  border-color: #1e1e1e;
+  border-radius: 58px;
+  height: 77px;
+  position: relative;
+  width: 373px;
+}
+
+.frame .text-wrapper-18 {
+  color: var(--p1-black);
+  font-family: "Krona One", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  left: 108px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 21px;
+  white-space: nowrap;
+  width: 154px;
+}
+
+.frame .upcoming-event {
+  color: var(--p1-black);
+  font-family: "Krona One", Helvetica;
+  font-size: 181.9px;
+  font-weight: 400;
+  left: 346px;
+  letter-spacing: 0;
+  line-height: 160px;
+  position: absolute;
+  top: 0;
+  width: 1370px;
+}
+
+.frame .paragraph-section-2 {
+  height: 372px;
+  left: 242px;
+  position: absolute;
+  top: 1120px;
+  width: 1437px;
+}
+
+.frame .KIRTAN-MEDITATION-is {
+  color: var(--p1-black);
+  font-family: var(--h2-desktop-font-family);
+  font-size: var(--h2-desktop-font-size);
+  font-style: var(--h2-desktop-font-style);
+  font-weight: var(--h2-desktop-font-weight);
+  left: 82px;
+  letter-spacing: var(--h2-desktop-letter-spacing);
+  line-height: var(--h2-desktop-line-height);
+  position: absolute;
+  top: 11px;
+  width: 670px;
+}
+
+.frame .lorem-is-simply-2 {
+  color: var(--p1-black);
+  font-family: var(--body-desktop-font-family);
+  font-size: var(--body-desktop-font-size);
+  font-style: var(--body-desktop-font-style);
+  font-weight: var(--body-desktop-font-weight);
+  left: 800px;
+  letter-spacing: var(--body-desktop-letter-spacing);
+  line-height: var(--body-desktop-line-height);
+  position: absolute;
+  top: -1px;
+  width: 520px;
+}
+
+.frame .vector-4 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 371px;
+  width: 1437px;
+}
+
+.frame .gallery-section {
+  height: 887px;
+  left: 243px;
+  position: absolute;
+  top: 97px;
+  width: 1437px;
+}
+
+.frame .div-9 {
+  height: 709px;
+  left: 80px;
+  position: absolute;
+  top: 23px;
+  width: 569px;
+}
+
+.frame .KIRTAN-MEDITATION-is-2 {
+  color: var(--p1-black);
+  font-family: var(--h2-desktop-font-family);
+  font-size: var(--h2-desktop-font-size);
+  font-style: var(--h2-desktop-font-style);
+  font-weight: var(--h2-desktop-font-weight);
+  left: 0;
+  letter-spacing: var(--h2-desktop-letter-spacing);
+  line-height: var(--h2-desktop-line-height);
+  position: absolute;
+  top: -1px;
+  width: 569px;
+}
+
+.frame .lorem-is-simply-3 {
+  color: var(--p1-black);
+  font-family: var(--body-desktop-font-family);
+  font-size: var(--body-desktop-font-size);
+  font-style: var(--body-desktop-font-style);
+  font-weight: var(--body-desktop-font-weight);
+  left: 0;
+  letter-spacing: var(--body-desktop-letter-spacing);
+  line-height: var(--body-desktop-line-height);
+  position: absolute;
+  top: 287px;
+  width: 520px;
+}
+
+.frame .vector-5 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 886px;
+  width: 1437px;
+}
+
+.frame .div-10 {
+  height: 788px;
+  left: 676px;
+  position: absolute;
+  top: 0;
+  width: 714px;
+}
+
+.frame .rectangle-5 {
+  height: 214px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 51px;
+  width: 347px;
+}
+
+.frame .rectangle-6 {
+  height: 446px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 290px;
+  width: 347px;
+}
+
+.frame .rectangle-7 {
+  height: 376px;
+  left: 377px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 337px;
+}
+
+.frame .rectangle-8 {
+  height: 376px;
+  left: 377px;
+  object-fit: cover;
+  position: absolute;
+  top: 412px;
+  width: 337px;
+}
+
+.frame .overlap-8 {
+  height: 1326px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.frame .quotes-slider {
+  border-radius: 0px 0px 20px 20px;
+  height: 372px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 954px;
+  width: 1920px;
+}
+
+.frame .overlap-9 {
+  background-color: #00dc60;
+  height: 533px;
+  position: relative;
+  top: -4px;
+}
+
+.frame .experience-kirtan {
+  color: var(--p2-primary-30);
+  font-family: var(--h3-desktop-font-family);
+  font-size: var(--h3-desktop-font-size);
+  font-style: var(--h3-desktop-font-style);
+  font-weight: var(--h3-desktop-font-weight);
+  left: 338px;
+  letter-spacing: var(--h3-desktop-letter-spacing);
+  line-height: var(--h3-desktop-line-height);
+  position: absolute;
+  top: 161px;
+  width: 382px;
+}
+
+.frame .there-s-no-reason-to {
+  color: var(--p2-primary-30);
+  font-family: var(--h3-desktop-font-family);
+  font-size: var(--h3-desktop-font-size);
+  font-style: var(--h3-desktop-font-style);
+  font-weight: var(--h3-desktop-font-weight);
+  left: 821px;
+  letter-spacing: var(--h3-desktop-letter-spacing);
+  line-height: var(--h3-desktop-line-height);
+  position: absolute;
+  top: 161px;
+  width: 354px;
+}
+
+.frame .there-s-no-reason-to-2 {
+  color: var(--p2-primary-30);
+  font-family: var(--h3-desktop-font-family);
+  font-size: var(--h3-desktop-font-size);
+  font-style: var(--h3-desktop-font-style);
+  font-weight: var(--h3-desktop-font-weight);
+  left: 1276px;
+  letter-spacing: var(--h3-desktop-letter-spacing);
+  line-height: var(--h3-desktop-line-height);
+  position: absolute;
+  top: 161px;
+  width: 345px;
+}
+
+.frame .text-wrapper-19 {
+  color: var(--p2-primary-30);
+  font-family: "Montserrat", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  left: 338px;
+  letter-spacing: 0;
+  line-height: 35.4px;
+  position: absolute;
+  top: 299px;
+  width: 67px;
+}
+
+.frame .text-wrapper-20 {
+  color: var(--p2-primary-30);
+  font-family: "Montserrat", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  left: 821px;
+  letter-spacing: 0;
+  line-height: 35.4px;
+  position: absolute;
+  top: 294px;
+  width: 67px;
+}
+
+.frame .text-wrapper-21 {
+  color: var(--p2-primary-30);
+  font-family: "Montserrat", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  left: 1276px;
+  letter-spacing: 0;
+  line-height: 35.4px;
+  position: absolute;
+  top: 294px;
+  width: 67px;
+}
+
+.frame .hero-section {
+  border-radius: 0px 0px 30px 30px;
+  height: 1026px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.frame .overlap-10 {
+  background-color: #000000;
+  height: 1026px;
+  left: -40px;
+  position: relative;
+  width: 1979px;
+}
+
+.frame .rectangle-9 {
+  background-color: #3333334f;
+  height: 1026px;
+  left: 40px;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.frame .LIVE-KIRTAN {
+  color: var(--p2-primary-200);
+  font-family: var(--h1-desktop-font-family);
+  font-size: var(--h1-desktop-font-size);
+  font-style: var(--h1-desktop-font-style);
+  font-weight: var(--h1-desktop-font-weight);
+  left: 576px;
+  letter-spacing: var(--h1-desktop-letter-spacing);
+  line-height: var(--h1-desktop-line-height);
+  position: absolute;
+  text-align: center;
+  top: 400px;
+  width: 828px;
+}
+
+.frame .group-6 {
+  height: 77px;
+  left: 813px;
+  position: absolute;
+  top: 882px;
+  width: 375px;
+}
+
+.frame .get-tickets-wrapper {
+  border: 2px solid;
+  border-color: #3aff77;
+  border-radius: 58px;
+  height: 77px;
+  position: relative;
+  width: 373px;
+}
+
+.frame .get-tickets {
+  color: var(--p2-primary-200);
+  font-family: "Krona One", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  left: 110px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 21px;
+  white-space: nowrap;
+  width: 149px;
+}
+
+.frame .hello-london-join-us {
+  color: var(--p2-primary-200);
+  font-family: "Krona One", Helvetica;
+  font-size: 24.2px;
+  font-weight: 400;
+  left: 778px;
+  letter-spacing: 0;
+  line-height: 19.3px;
+  position: absolute;
+  text-align: center;
+  top: 356px;
+  white-space: nowrap;
+}
+
+.frame .NAVBAR-wrapper {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--p2-primary-200);
+  height: 110px;
+  left: 40px;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.frame .NAVBAR {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  height: 110px;
+  justify-content: center;
+  left: 240px;
+  padding: 59px 0px;
+  position: relative;
+  width: 1440px;
+}
+
+.frame .div-wrapper-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: -14.5px;
+  margin-top: -14.5px;
+  padding: 0px 50px;
+  position: relative;
+}
+
+.frame .text-wrapper-22 {
+  color: var(--p2-primary-200);
+  font-family: "Krona One", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame .logo-2 {
+  height: 110px;
+  left: 354px;
+  position: absolute;
+  top: 0;
+  width: 110px;
+}
