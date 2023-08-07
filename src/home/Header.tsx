@@ -3,6 +3,7 @@ import { css } from '@emotion/react'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const heroSectioinStyle = css({
+  color: 'green',
   borderRadius: '0px 0px 30px 30px'
 })
 
@@ -18,12 +19,11 @@ const backgroundStyles = css`
 const navbarWrapperStyles = css`
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  border-color: var(--p2-primary-200);
+  border-color: green;
   height: 110px;
   left: 40px;
   position: absolute;
   top: 0;
-  width: 1920px;
 `
 
 const navbarStyles = css`
