@@ -989,7 +989,7 @@
 }
 
 .frame .rectangle-9 {
-  background-color: #3333334f;
+  background: url(/images/header.jpg);
   height: 1026px;
   left: 40px;
   position: absolute;
