@@ -1,0 +1,107 @@
+
+.frame .hero-section {
+}
+
+/* todel */
+.frame .overlap-10 {
+  background-color: #000000;
+  height: 1026px;
+  left: -40px;
+  position: relative;
+  width: 1979px;
+}
+
+.frame .rectangle-9 {
+}
+
+.frame .LIVE-KIRTAN {
+  color: var(--p2-primary-200);
+  font-family: var(--h1-desktop-font-family);
+  font-size: var(--h1-desktop-font-size);
+  font-style: var(--h1-desktop-font-style);
+  font-weight: var(--h1-desktop-font-weight);
+  left: 576px;
+  letter-spacing: var(--h1-desktop-letter-spacing);
+  line-height: var(--h1-desktop-line-height);
+  position: absolute;
+  text-align: center;
+  top: 400px;
+  width: 828px;
+}
+
+.frame .group-6 {
+  height: 77px;
+  left: 813px;
+  position: absolute;
+  top: 882px;
+  width: 375px;
+}
+
+.frame .get-tickets-wrapper {
+  border: 2px solid;
+  border-color: #3aff77;
+  border-radius: 58px;
+  height: 77px;
+  position: relative;
+  width: 373px;
+}
+
+.frame .get-tickets {
+  color: var(--p2-primary-200);
+  font-family: "Krona One", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  left: 110px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 21px;
+  white-space: nowrap;
+  width: 149px;
+}
+
+.frame .hello-london-join-us {
+  color: var(--p2-primary-200);
+  font-family: "Krona One", Helvetica;
+  font-size: 24.2px;
+  font-weight: 400;
+  left: 778px;
+  letter-spacing: 0;
+  line-height: 19.3px;
+  position: absolute;
+  text-align: center;
+  top: 356px;
+  white-space: nowrap;
+}
+
+.frame .div-wrapper-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: -14.5px;
+  margin-top: -14.5px;
+  padding: 0px 50px;
+  position: relative;
+}
+
+.frame .text-wrapper-22 {
+  color: var(--p2-primary-200);
+  font-family: "Krona One", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame .logo-2 {
+  height: 110px;
+  left: 354px;
+  position: absolute;
+  top: 0;
+  width: 110px;
+}

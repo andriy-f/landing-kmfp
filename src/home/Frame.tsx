@@ -3,7 +3,6 @@ import './frame.css'
 
 const Frame = () => {
   return (
-    <div className="frame">
       <div className="div">
         <div className="overlap">
           <div className="borders">
@@ -199,46 +198,8 @@ const Frame = () => {
               <div className="text-wrapper-21">Susan</div>
             </div>
           </div>
-          <div className="hero-section">
-            <div className="overlap-10">
-              <div className="rectangle-9" />
-              <div className="LIVE-KIRTAN">
-                LIVE
-                <br />
-                KIRTAN
-                <br />
-                MEDITATION
-                <br />
-                FOR PEACE
-              </div>
-              <div className="group-6">
-                <div className="get-tickets-wrapper">
-                  <div className="get-tickets">GET TICKETS</div>
-                </div>
-              </div>
-              <p className="hello-london-join-us">HELLO LONDON! JOIN US ON</p>
-              <div className="NAVBAR-wrapper">
-                <div className="NAVBAR">
-                  <div className="div-wrapper-2">
-                    <div className="text-wrapper-22">HOME</div>
-                  </div>
-                  <div className="div-wrapper-2">
-                    <div className="text-wrapper-22">🔴 LIVE</div>
-                  </div>
-                  <div className="div-wrapper-2">
-                    <div className="text-wrapper-22">TICKETS</div>
-                  </div>
-                  <div className="div-wrapper-2">
-                    <div className="text-wrapper-22">CONTACT</div>
-                  </div>
-                </div>
-              </div>
-              <img className="logo-2" alt="Logo" src="/images/logo-1-2.svg" />
-            </div>
-          </div>
         </div>
       </div>
-    </div>
   )
 }
 
