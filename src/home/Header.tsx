@@ -2,9 +2,9 @@ import React from 'react'
 import { css } from '@emotion/react'
 import { StaticImage } from 'gatsby-plugin-image'
 
-const heroSectioinStyle = css`
-  border-radius: 0px 0px 30px 30px;
-`
+const heroSectioinStyle = css({
+  borderRadius: '0px 0px 30px 30px'
+})
 
 const backgroundStyles = css`
   background: url(/images/header.jpg);
