@@ -462,12 +462,13 @@ a {
 .heading-2 {
   z-index: 4;
   text-transform: uppercase;
+  margin-bottom: 10px;
   font-family: Playfair Display, sans-serif;
   font-size: 5.4rem;
   font-weight: 500;
   line-height: 4.4rem;
   position: absolute;
-  top: 50px;
+  top: 19px;
 }
 
 .cell-4 {
@@ -490,6 +491,7 @@ a {
 }
 
 .full-bleed.event-details {
+  height: 510px;
   background-color: #e6abff;
 }
 
@@ -757,7 +759,7 @@ a {
   position: absolute;
   top: 0%;
   bottom: auto;
-  left: 0%;
+  left: 5%;
   right: auto;
 }
 
@@ -773,6 +775,10 @@ a {
 
 .link-block-2, .link-block-3 {
   display: none;
+}
+
+.text-span-10 {
+  font-weight: 500;
 }
 
 @media screen and (max-width: 991px) {
