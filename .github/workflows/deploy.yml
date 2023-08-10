@@ -54,7 +54,8 @@ jobs:
           echo "host $HOSTING_ADDRESS" > auth.cfg
           echo "user $FTP_USER" >> auth.cfg
           echo "pass $FTP_PASSWORD" >> auth.cfg
-          ncftpput -f auth.cfg -R / ./public/*
+          # TODO transform plain JS to React, then deploy ./public/* and not ./to-deploy/*
+          ncftpput -f auth.cfg -R / ./to-deploy/*
           rm auth.cfg
 
       # - name: Upload static build via FTP
