@@ -13,10 +13,11 @@ import Frame from '../home/Frame'
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <div>
-      <Header />
+      <h1>Coming soon</h1>
+      {/* <Header />
       <main className="frame">
         <Frame />
-      </main>
+      </main> */}
     </div>
   )
 }
