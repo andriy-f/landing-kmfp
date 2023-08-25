@@ -244,7 +244,7 @@
             <div id="eventbrite-widget-container-700474948427" style="width: 100%"></div>
             <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
             <script type="text/javascript">
-                var exampleCallback = function() {
+                var bp_eventbrite_order_complete = function() {
                   console.log('Order complete!');
                   //<!-- Event snippet for Website traffic conversion page -->
                   window.gtag && gtag('event', 'conversion', {'send_to': 'AW-11305144475/2gvJCK2UgNYYEJuh244q'});
@@ -256,7 +256,7 @@
                   iframeContainerId: 'eventbrite-widget-container-700474948427',
                   // Optional
                   iframeContainerHeight: 720, // Widget height in pixels. Defaults to a minimum of 425px if not provided
-                  onOrderComplete: exampleCallback // Method called when an order has successfully completed
+                  onOrderComplete: bp_eventbrite_order_complete // Method called when an order has successfully completed
                 });
               </script>
           </div>
