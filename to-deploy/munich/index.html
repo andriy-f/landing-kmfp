@@ -397,7 +397,9 @@
             }
           });
 
-          window.location.hash = '#checkout';
+          if (window.location.hash != '#checkout') {
+            window.location.hash = '#checkout';
+          }
 
           window.EBWidgets.createWidget({
             // Required
