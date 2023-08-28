@@ -89,7 +89,7 @@
       <div class="container-2 w-container">
         <a href="#" class="w-nav-brand"><img src="images/logo.svg" loading="lazy" width="110" alt="Become Peace logo"></a>
         <nav role="navigation" class="nav-menu w-nav-menu">
-          <a href="#" class="nav-link w-nav-link bp-register">REGISTRIEREN</a>
+          <a id='bp-register-1' href="#" class="nav-link w-nav-link bp-register">REGISTRIEREN</a>
           <a href="#about-us" class="nav-link w-nav-link">ÜBER UNS</a>
         </nav>
       </div>
@@ -370,12 +370,58 @@
   <script type="text/javascript">
   </script>
   <script>
+
+      function bp_eventbrite_order_complete() {
+        console.log('Order complete!');
+        //<!-- Event snippet for Website traffic conversion page -->
+        gtag('event', 'conversion', {'send_to': 'AW-11305144475/2gvJCK2UgNYYEJuh244q'});
+      };
+
+      function openRegistrationPopup() {
+          // creating
+          //<div id="eventbrite-widget-container-700474948427" style="width: 100%"></div>
+
+          var content = document.createElement('div');
+          content.id = 'eventbrite-widget-container-700474948427';
+          var loader = document.createElement('div');
+          loader.className = 'lds-dual-ring';
+          content.appendChild(loader);
+
+          window.becomePeace.showPopup({
+            bodyContent: content,
+            onClose: function() {
+              var loc = window.location
+              if ('pushState' in history)
+                history.pushState('', document.title, loc.pathname + loc.search);
+              else {
+                loc.hash = '';
+              }
+            }
+          });
+
+          window.EBWidgets.createWidget({
+            // Required
+            widgetType: 'checkout',
+            eventId: '700474948427',
+            // test
+            // modal: true,
+            // modalTriggerElementId: 'bp-register-1',
+            iframeContainerId: 'eventbrite-widget-container-700474948427',
+            // Optional
+            iframeContainerHeight: 720, // Widget height in pixels. Defaults to a minimum of 425px if not provided
+            onOrderComplete: bp_eventbrite_order_complete // Method called when an order has successfully completed
+          });
+      }
       window.addEventListener("load", (event) => {
         console.log("page is fully loaded");
+
+        if (window.location.hash == '#checkout') {
+          openRegistrationPopup();
+        }
+
         var isMobile = window.screen.width < 480;
         var video = document.getElementById(isMobile ? 'bp-hero-video-mobile' : 'bp-hero-video-desktop');
         if (video) {
-          //video.play();
           document.getElementById('bp-sound-toggle').addEventListener("click", () => {
             video.muted = !video.muted;
             document.getElementById('bp-sound-toggle__on').style.display = !video.muted ? 'inline-block' : 'none';
@@ -384,33 +430,10 @@
         }
       });
 
-      var bp_eventbrite_order_complete = function() {
-        console.log('Order complete!');
-        //<!-- Event snippet for Website traffic conversion page -->
-        window.gtag && gtag('event', 'conversion', {'send_to': 'AW-11305144475/2gvJCK2UgNYYEJuh244q'});
-      };
-
       document.querySelectorAll('.bp-register').forEach(function(registerButton) {
         registerButton.addEventListener('click', function(clickEvent) {
           clickEvent.preventDefault();
-          // creating
-          //<div id="eventbrite-widget-container-700474948427" style="width: 100%"></div>
-
-          var content = document.createElement('div');
-          content.id = 'eventbrite-widget-container-700474948427';
-          window.becomePeace.showPopup({
-            bodyContent: content,
-          });
-
-          window.EBWidgets.createWidget({
-            // Required
-            widgetType: 'checkout',
-            eventId: '700474948427',
-            iframeContainerId: 'eventbrite-widget-container-700474948427',
-            // Optional
-            iframeContainerHeight: 720, // Widget height in pixels. Defaults to a minimum of 425px if not provided
-            onOrderComplete: bp_eventbrite_order_complete // Method called when an order has successfully completed
-          });
+          openRegistrationPopup();
         });
       });
 

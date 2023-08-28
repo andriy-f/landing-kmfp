@@ -57,6 +57,7 @@
     var onCloseFun = function() {
       if(popup) {
         popup.remove();
+        options.onClose && options.onClose();
       } else {
         console.log('error: popup not initialized');
       }
