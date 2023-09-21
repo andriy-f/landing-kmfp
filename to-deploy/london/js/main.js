@@ -8,10 +8,10 @@
 
   function openRegistrationPopup() {
     // creating
-    //<div id="eventbrite-widget-container-700474948427" style="width: 100%"></div>
+    //<div id="eventbrite-widget-container-722335624297" style="width: 100%"></div>
 
     var content = document.createElement('div');
-    content.id = 'eventbrite-widget-container-700474948427'; // TODO
+    content.id = 'eventbrite-widget-container-722335624297'; // TODO
     var loader = document.createElement('div');
     loader.className = 'lds-dual-ring';
     content.appendChild(loader);
@@ -35,11 +35,11 @@
     window.EBWidgets.createWidget({
       // Required
       widgetType: 'checkout',
-      eventId: '700474948427',
+      eventId: '722335624297',
       // test
       // modal: true,
       // modalTriggerElementId: 'bp-register-1',
-      iframeContainerId: 'eventbrite-widget-container-700474948427',
+      iframeContainerId: 'eventbrite-widget-container-722335624297',
       // Optional
       iframeContainerHeight: 720, // Widget height in pixels. Defaults to a minimum of 425px if not provided
       onOrderComplete: bp_eventbrite_order_complete // Method called when an order has successfully completed
